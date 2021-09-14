@@ -1,6 +1,6 @@
 import React from "react";
 
-function articleListing() {
+function ArticleListing() {
   const articlesTitle = "Articles";
   return (
     <div>

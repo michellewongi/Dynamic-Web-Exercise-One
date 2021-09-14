@@ -1,6 +1,6 @@
 import React from "react";
 
-function article() {
+function Article() {
   const articleTitle = "Single Article";
   return (
     <div>
