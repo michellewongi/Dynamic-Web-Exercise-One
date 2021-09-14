@@ -3,10 +3,10 @@ import React from "react";
 function ArticleListing() {
   const articlesTitle = "Articles";
   return (
-    <div>
-      <h1>{articlesTitle}</h1>
+    <div className="page-wrapper">
+      <h1 className="header-one">{articlesTitle}</h1>
     </div>
   );
 }
 
-export default articleListing;
+export default ArticleListing;

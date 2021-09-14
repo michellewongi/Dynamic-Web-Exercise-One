@@ -9,4 +9,4 @@ function Article() {
   );
 }
 
-export default article;
+export default Article;

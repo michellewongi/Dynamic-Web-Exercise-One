@@ -1,0 +1,10 @@
+.page-wrapper {
+  display: block;
+  margin: 0 auto;
+  max-width: 1160px;
+  padding: 0 25px;
+}
+.header-one {
+  font-size: 80px;
+  font-weight: normal;
+}
