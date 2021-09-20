@@ -1,10 +1,51 @@
-.page-wrapper {
-  display: block;
+.PageWrapper {
   margin: 0 auto;
   max-width: 1160px;
   padding: 0 25px;
 }
-.header-one {
+
+.HeaderOneStyle {
   font-size: 80px;
   font-weight: normal;
+  margin: 0;
+  padding: 40px 0;
+}
+
+.ArticleCardWrapper {
+  align-items: flex-start;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 25px;
+  margin-bottom: 50px;
+}
+
+.ArticleCardImage {
+  flex-basis: 25%;
+}
+
+.ArticleCardImage img {
+  height: 220px;
+  width: 90%;
+}
+
+.ArticleCardText {
+  flex-basis: 65%;
+  padding: 0 0 0 10px;
+}
+
+.ArticleCardTitle {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.ArticleCardDate {
+}
+
+.ArticleCardBlurb {
+}
+
+.ArticleCardLink {
 }
